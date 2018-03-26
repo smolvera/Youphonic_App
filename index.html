@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>YOUPHONIC</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="assets/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <!-- Favicon links -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <link rel="icon" sizes="192x192" href="assets/images/favicon.png">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--<body style="background-color:#fff;text-align:center"> -->
+  <div class="text-center">
+    <img src='assets/images/project.gif' alt='headerImg' width='100%'>
+  </div>
+  
+  <!--Main layout-->
+  <main>
+    <div class="container">
+      <div class="row text-center">
+          <!--Grid column-->
+        <div class="col-md-12 mb-4">
+          <div id="searchBar">
+            <form class="navbar-form" role="search">
+              <div class="form-group">
+                <input id="artistSearch" type="text" class="form-control" placeholder="Add the Artist"> +
+                <input id="trackSearch" type="text" class="form-control" placeholder="Add the Song Title">
+                <!-- replaced the boring button with Kim's headphone image> -->
+                <button id="get-lyrics" onclick="getLyrics()"><img src="assets/images/Button.png"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+            <!-- this is the divider bar -->
+        <div class="divider">
+          <hr class="my-4" color='red'>
+        </div>
+    </div>
+          <!-- end of the divider bar -->
+          
+          <!--Grid row-->
+    <div class="row">
+            <!--Grid column-->
+      <div class="col-md-6 mb-4">
+        <div class="container">
+          <div class="embed-responsive embed-responsive-4by3"> 
+            <!-- changed the id to videos -->
+            <iframe id="videos" class="embed-responsive-item" src="https://www.youtube.com/embed/fKopy74weus"></iframe>
+          </div>        
+        </div>
+      </div>
+            <!--Grid column-->
+      <div class="col-md-6 mb-4">        
+              <!-- KJS take this scroller out and swap out for html version-->
+        <h3 class="h3 mb-4">YOUPHONIC Lyrics!</h3>
+        <marquee behavior="scroll" scrollamount="1" direction="up" style="height:200px;">
+        <!-- this is where the response lyrics will go -->
+        <div id="lyrics" class="example3"></div></marquee>
+      </div>
+      <!--Grid column-->
+    </div>
+      <!--Grid row-->
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2018 Copyright:
+      <a href="https://github.com/pfrancis113/GroupProject/" target="_blank"> YouPhonic </a>
+    </div>
+    <!--Copyright-->
+
+  </footer>
+  <!--Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <!-- Initializations -->
+
+  <!-- youtube script -->
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  <!-- <script src="https://apis.google.com/js/api.js"></script> -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script type="text/javascript" src="assets/js/app1.js"></script>
+  <!-- Animations initialization  -->
+  <script>new WOW().init();</script>
+</body>
+
+</html>
