@@ -21,9 +21,9 @@ Check out the Deployed version: [Youphonic](https://smolvera.github.io/Youphonic
 
 #### Contributing Team:
 
-* **Samantha Olvera** - Full Stack Developer - [Samantha Olvera](https://github.com/smolvera)
-* **Kim Swope** - Full Stack Developer - [Kim Swope](https://github.com/Southerngirl13)
-* **Jamar Parham** - Full Stack Developer - [Jamar Parham](https://github.com/JParham23)
-* **Patrick Francis** - Full Stack Developer - [Patrick Francis](https://github.com/pfrancis113)
+* **Samantha Olvera** - Musixmatch API, Javascript - [Samantha Olvera](https://github.com/smolvera)
+* **Kim Swope** - Front End - [Kim Swope](https://github.com/Southerngirl13)
+* **Jamar Parham** - Youtube API - [Jamar Parham](https://github.com/JParham23)
+* **Patrick Francis** - Yutube API - [Patrick Francis](https://github.com/pfrancis113)
 
 Author: [Samantha Olvera](https://github.com/smolvera)
